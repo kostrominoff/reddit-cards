@@ -1,0 +1,80 @@
+@import "../../../styles/variables";
+
+.textContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    color: $dark;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+
+    @media (max-width: 400px) {
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    a {
+      color: $dark;
+      text-decoration: none;
+    }
+  }
+
+  .publicTime {
+    display: inline-block;
+    margin-right: 5px;
+    color: $gray;
+    vertical-align: center;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 5px;
+      vertical-align: bottom;
+    }
+
+    a {
+      color: $firm;
+      text-decoration: none;
+
+      @media (max-width: 360px) {
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+  }
+
+  .watched {
+    color: $gray;
+    @media (max-width: 360px) {
+      font-size: 10px;
+      line-height: 12px;
+    }
+
+    span {
+      margin-left: 4px;
+    }
+  }
+}

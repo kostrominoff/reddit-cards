@@ -1,0 +1,17 @@
+.list {
+  width: 100%;
+  margin-top: 100px;
+  padding: 60px;
+  border-radius: 7px;
+  list-style: none;
+  background-color: #fff;
+
+  @media (max-width: 850px) {
+    padding: 40px 20px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px 0;
+    background-color: transparent;
+  }
+}

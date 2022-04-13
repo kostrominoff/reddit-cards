@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+
+.list {
+  list-style: none;
+
+  li {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.button {
+  //height: 21px;
+  background-color: transparent;
+  color: $gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

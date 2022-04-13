@@ -1,0 +1,22 @@
+.dropdown {
+  position: relative;
+  margin-left: auto;
+
+  .open {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all .3s ease;
+    
+    &:hover {
+      background-color: rgba(#333, 10%);
+    }
+  }
+}
